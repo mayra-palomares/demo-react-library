@@ -1,0 +1,53 @@
+{
+  "name": "demo-react-library",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "dist/index.es.js",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "rollup": "^3.14.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayra-palomares/demo-react-library.git"
+  },
+  "author": "Mayra Palomares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayra-palomares/demo-react-library/issues"
+  },
+  "homepage": "https://github.com/mayra-palomares/demo-react-library#readme",
+  "dependencies": {
+    "@types/react": "^18.0.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
